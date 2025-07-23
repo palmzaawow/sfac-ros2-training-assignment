@@ -1,0 +1,12 @@
+# Goal
+string mode  
+
+---
+# Result
+bool parked
+string report
+
+---
+# Feedback
+string status
+int32 percent_complete

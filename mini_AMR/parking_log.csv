@@ -1,0 +1,16 @@
+2025-07-22 17:04:30,emergency,started,Parking initiated
+2025-07-22 17:04:30,emergency,completed,Vehicle parked successfully.
+2025-07-22 17:11:17,normal,started,Parking initiated
+2025-07-22 17:11:17,normal,aborted,Parking aborted due to battery recovery.
+2025-07-22 17:12:08,emergency,started,Parking initiated
+2025-07-22 17:12:09,emergency,completed,Vehicle parked successfully.
+2025-07-23 08:53:03,emergency,started,Parking initiated
+2025-07-23 08:53:04,emergency,completed,Vehicle parked successfully.
+2025-07-23 08:53:07,normal,started,Parking initiated
+2025-07-23 08:53:07,normal,aborted,Parking aborted due to battery recovery or preemption.
+2025-07-23 08:53:13,emergency,started,Parking initiated
+2025-07-23 08:53:14,emergency,completed,Vehicle parked successfully.
+2025-07-23 08:53:17,normal,started,Parking initiated
+2025-07-23 08:53:17,normal,aborted,Parking aborted due to battery recovery or preemption.
+2025-07-23 08:53:23,emergency,started,Parking initiated
+2025-07-23 08:53:24,emergency,completed,Vehicle parked successfully.

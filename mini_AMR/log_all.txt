@@ -1,0 +1,26 @@
+[parking_action_server-3] [INFO] [1753235585.478121734] [parking_action_server]: [Battery Callback] Status = OK
+[parking_action_server-3] [INFO] [1753235587.482804008] [parking_action_server]: Received goal request: mode=normal
+[parking_action_server-3] [INFO] [1753235587.485516828] [parking_action_server]: [Battery Callback] Status = OK
+[parking_action_server-3] [WARN] [1753235587.488469437] [parking_action_server]: Battery recovered to OK — initiating abort.
+[parking_action_server-3] [INFO] [1753235589.478663221] [parking_action_server]: [Battery Callback] Status = OK
+[diagnostics_subscriber-2] [WARN] [1753235591.478245211] [diagnostics_subscriber]: WARNING — [2025-07-23 08:53:11.474] — Status: OVERHEAT — Take Action!
+[parking_action_server-3] [INFO] [1753235591.478696326] [parking_action_server]: [Battery Callback] Status = OVERHEAT
+[diagnostics_subscriber-2] [WARN] [1753235593.478139961] [diagnostics_subscriber]: WARNING — [2025-07-23 08:53:13.474] — Status: CRITICAL — Take Action!
+[parking_action_server-3] [INFO] [1753235593.478713020] [parking_action_server]: [Battery Callback] Status = CRITICAL
+[diagnostics_subscriber-2] [INFO] [1753235593.480386657] [diagnostics_subscriber]: CRITICAL status detected — Prepare to call parking action server.
+[diagnostics_subscriber-2] [INFO] [1753235593.482549783] [diagnostics_subscriber]: Sending emergency parking goal via action client...
+[parking_action_server-3] [INFO] [1753235593.487009170] [parking_action_server]: Received goal request: mode=emergency
+[diagnostics_subscriber-2] [INFO] [1753235593.490597026] [diagnostics_subscriber]: Parking goal accepted by server
+[parking_action_server-3] [INFO] [1753235593.692996233] [parking_action_server]: [emergency] Feedback: Aligning to parking spot... (20%)
+[parking_action_server-3] [INFO] [1753235593.895606073] [parking_action_server]: [emergency] Feedback: Moving into slot... (60%)
+[parking_action_server-3] [INFO] [1753235594.097996102] [parking_action_server]: [emergency] Feedback: Adjusting position... (90%)
+[parking_action_server-3] [INFO] [1753235594.300715333] [parking_action_server]: [emergency] Feedback: Parking complete! (100%)
+[diagnostics_subscriber-2] [INFO] [1753235594.306220444] [diagnostics_subscriber]: Parking action finished: parked=True, report='Vehicle parked successfully.'
+[parking_action_server-3] [INFO] [1753235595.478897917] [parking_action_server]: [Battery Callback] Status = OK
+[parking_action_server-3] [INFO] [1753235597.481936232] [parking_action_server]: Received goal request: mode=normal
+[parking_action_server-3] [INFO] [1753235597.488332872] [parking_action_server]: [Battery Callback] Status = OK
+[parking_action_server-3] [WARN] [1753235597.490566243] [parking_action_server]: Battery recovered to OK — initiating abort.
+[parking_action_server-3] [INFO] [1753235599.478463830] [parking_action_server]: [Battery Callback] Status = OK
+[diagnostics_subscriber-2] [WARN] [1753235601.478227260] [diagnostics_subscriber]: WARNING — [2025-07-23 08:53:21.474] — Status: OVERHEAT — Take Action!
+[parking_action_server-3] [INFO] [1753235601.478711098] [parking_action_server]: [Battery Callback] Status = OVERHEAT
+[diagnostics_subscriber-2] [WARN] [1753235603.478267732] [diagnostics_subscriber]: WARNING — [2025-07-23 08:53:23.474] — Status: CRITICAL — Take Action!
